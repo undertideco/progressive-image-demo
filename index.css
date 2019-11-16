@@ -1,0 +1,9 @@
+img {
+  transition: filter 1s ease-in-out;
+  -webkit-transition: filter 1s ease-in-out;
+  filter: blur(0px);
+}
+
+img.blurred {
+  filter: blur(30px);
+}
